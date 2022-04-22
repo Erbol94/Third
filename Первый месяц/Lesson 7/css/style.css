@@ -1,0 +1,229 @@
+/* Брейкпоинты: 1200 и больше - ноутбуки и большие мониторы, 992px по 1199px - планшеты и маленькие ноутбуки, 768px по 991px - планшеты маленькие, 320px по 767px мобилы */
+
+/* HOME start */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*background: url('../images/home.jpg') no-repeat center;*/
+    /*background: url('../images/home_1.jpg') no-repeat center;*/
+    background: url('../images/home_1.png') no-repeat center;
+    background-size: cover;
+}
+.home__inner {
+    flex: 0 1 580px;
+    text-align: center;
+    color: #fff;
+}
+.home__inner p {
+    max-width: 540px;
+    margin: 40px auto;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+/* HOME end */
+/* EASY */
+.easy {
+    padding: 95px 0;
+}
+.easy__inner {
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 1110px) {
+    .easy__inner {
+        width: 450px;
+        margin: 0 auto;
+        flex-direction: column-reverse;
+    }
+}
+.easy__inner .left {
+    flex: 0 1 445px;
+    padding-top: 45px;
+}
+@media (max-width: 1110px) {
+    .easy__inner .left {
+        flex-basis: auto;
+    }
+}
+.easy__inner .left p {
+    margin: 40px 0 20px;
+}
+.easy__inner .right {
+    position: relative;
+    padding-right: 95px;
+}
+.easy__inner .right .play {
+    position: absolute;
+    top: calc(50% - 33px);
+    left: -33px;
+    display: block;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    background-color: #ED4C5C;
+}
+@media (max-width: 1110px) {
+    .easy__inner .right .play {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+/* EASY end */
+/*  */
+.features {
+    padding: 65px 0 125px;
+    background-color: #FAFAFA;
+}
+.features .h2 {
+    margin-bottom: 63px;
+    text-align: center;
+}
+.features__blocks {
+    display: flex;
+    justify-content: space-between;
+}
+.features__item {
+    width: 350px;
+}
+.features__item .image {
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.features__item .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 293px;
+    height: 198px;
+    margin: -93px auto 0;
+    padding: 33px 32px 25px;
+    background-color: #fff;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+/*  */
+.contact {
+    padding: 120px 0 80px;
+}
+.contact_inner {
+    display: flex;
+    justify-content: space-between;
+}
+.contact_inner .left {
+    flex: 0 1 445px;
+}
+.contact_inner .left .h2 {
+    margin-bottom: 60px;
+}
+.contact_inner .right {
+    flex: 0 1 540px;
+}
+.contact_inner form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact_inner form > div {
+    width: 100%;
+}
+.contact_inner form > div:not(:last-child) {
+    margin-bottom: 24px;
+}
+.contact_inner form > div.w-50 {
+    /*width: calc(50% - 15px);*/
+    flex: 0 1 calc(50% - 15px);
+}
+.contact_inner form input,
+.contact_inner form select {
+    display: block;
+    width: 100%;
+    height: 60px;
+    padding: 0 30px;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/*footer start*/
+
+.footer_inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0 0;
+    background-color: #FAFAFA;
+}
+.addres_footer {
+    flex: 0 0 260px;
+}
+.addres_footer p {
+    margin-top: 37px;
+    margin-bottom: 140px;
+}
+
+.service_footer {
+    flex: 0 0 254px;
+}
+.service_footer p {
+    margin-top: 37px;
+}
+.get_footer {
+    flex: 0 0 122px;
+}
+.get_footer h3 {
+    margin-bottom: 37px;
+}
+.get_footer p {
+    margin-bottom: 12px;
+}
+.get_footer a {
+    margin-top: 20px;
+}
+.support_footer h3 {
+    margin-bottom: 37px;
+}
+/*footer end*/
+/*head start*/
+
+.header {
+    position: absolute;
+    margin-top: 17px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+ul {
+    list-style-type: none;
+}
+.header_inner {
+    display: flex;
+    padding: 0 0 0 0;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.navbar_logo h4 {
+    display: inline-block;
+    color: #FAFAFA;
+    font-size: 18px;
+    line-height: 22px;
+}
+.navbar_list  li {
+    display: inline-block;
+
+}
+.navbar_list li a{
+    text-decoration: none;
+    margin: 16px;
+    color: #FAFAFA;
+    font-size: 14px;
+    line-height: 17px;
+}

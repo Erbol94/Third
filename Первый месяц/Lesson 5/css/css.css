@@ -1,0 +1,191 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("../img/Hero Image.png");
+    background-size: cover;
+}
+.home__inner {
+    flex: 0 1 580px;
+    width: 580px;
+    text-align: center;
+}
+
+.home__inner h1 {
+    font: 72px 'lato', sans-serif;
+    font-weight: 700;
+    width: 578px;
+    height: 86px;
+    color: #ffffff;
+}
+
+.home__inner p {
+    font: 24px 'lato', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    max-width: 540px;
+    margin: 39px auto;
+    line-height: 36px;
+}
+.home__inner a {
+    font: 14px 'lato', sans-serif;
+    font-weight: 600;
+    color: red;
+}
+/*home end*/
+
+/*easy start*/
+
+.easy {
+    padding: 95px 0 95px;
+}
+.easy_inner {
+    display: flex;
+    justify-content: space-between;
+}
+.easy_text {
+    flex: 0 1 445px;
+    padding-top: 45px;
+}
+
+.easy_text p {
+    font: 14px 'lato', sans-serif;
+    font-weight: normal;
+    margin: 40px 0 20px;
+    text-align: justify;
+
+}
+.easy_text a{
+    color: #ED4C5C;
+;
+}
+.easy_img {
+    position: relative;
+    padding-right: 95px;
+}
+.easy_img .play {
+    position: absolute;
+    top: calc(50% - 33px);
+    left: -33px;
+    display: block;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    background-color: #ED4C5C;
+}
+
+
+/*easy end*/
+/*card start*/
+
+
+
+.card1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.img_content {
+    width: 350px;
+    height: 250px;
+    margin-top: 63px;
+}
+
+.over_text .text{
+    box-shadow: 0 5px 30px rgba(0,0,0,0.1);
+    width: 293px;
+    height: 198px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    transform: translate(0,-50%);
+    padding: 33px;
+}
+
+.features h2 {
+    /*margin-top: ;*/
+}
+
+.text {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text a{
+    font: 12px 'lato', sans-serif;
+    font-weight: 700;
+    line-height: 18px;
+    color:#ED4C5C;
+    text-decoration: none;
+}
+
+.text p {
+    font: 12px 'lato', sans-serif;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+    line-height: 18px;
+}
+
+/*card1 end*/
+/*technology start*/
+
+
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 220px;
+}
+.cloud {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 255px;
+    height: 220px;
+}
+.cloud span {
+    line-height: 120px;
+    font: 100px 'lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(16,16,16,0.08);
+}
+
+.frame {
+    width: 117px;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.frame span {
+    position: relative;
+
+}
+
+.frame img {
+    position: absolute;
+    padding-top: 50px;
+}
+
+.cloud h4 {
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+.button {
+    margin-top: 100px;
+    margin-left: 600px;
+    width: 150px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #ED4C5C;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+/*technology end*/

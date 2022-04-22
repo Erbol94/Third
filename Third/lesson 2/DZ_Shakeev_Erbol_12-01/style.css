@@ -1,0 +1,28 @@
+/*#list span {*/
+/*    margin-right: 10px;*/
+/*}*/
+/*#list .remove, #list .mark {*/
+/*    color: blue;*/
+/*    cursor: pointer;*/
+/*}*/
+/*#list .remove:hover, #list .mark:hover {*/
+/*    text-decoration: underline;*/
+/*}*/
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background: #ffb508;
+}
+button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background: #989aff;
+    border-radius: 10px;
+}

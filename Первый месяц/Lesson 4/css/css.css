@@ -1,0 +1,62 @@
+.block {
+    height: 100vh;
+    background: url("../img/Hero Image.png") center no-repeat;
+}
+
+* {
+    padding: 0;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 500px;
+    /*align-items: stretch;*/
+    align-items: center;
+    background-color: #7e2f80;
+    margin: 25px;
+}
+.flex div {
+    /*flex-direction: row;*/
+    flex:  0 1 200px;
+    /*flex-grow: 1;*/
+    /*flex-shrink: 1;*/
+    /*flex-basis: 300px;*/
+    /*width: 300px;*/
+    background-color: #fff84a;
+    color: #261aff;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+
+}
+
+.flex-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.flex-block .left {
+    flex: 0 1 440px;
+    padding-right: 80px;
+    font-size: 36px;
+}
+
+/*.flex div.one {*/
+/*    order: 4;*/
+
+/*}*/
+/*.flex div.two {*/
+/*    order: 1;*/
+
+/*}*/
+/*.flex div.three {*/
+/*    order: 2;*/
+
+/*}*/
+/*.flex div.four {*/
+/*    order: 3;*/
+
+/*}*/

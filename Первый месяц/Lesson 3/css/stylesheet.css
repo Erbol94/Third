@@ -1,0 +1,65 @@
+/** {*/
+/*    box-sizing: border-box;*/
+/*}*/
+.block {
+    width: 500px;
+    /*min-width: 600px;*/
+    margin: 50px 50px 50px 50px;
+    /*margin-left: 20px;*/
+    /*margin-right: 20px;*/
+    /*margin-top: 20px;*/
+    /*margin-top: 20px;*/
+    /*max-width: 1000px;*/
+    /*height: 100px;*/
+    padding: 20px 20px 20px 20px;
+    border: 5px solid #000000;
+    /*border-top: 5px solid #000000;*/
+    /*border-bottom: 5px solid #000000;*/
+    /*border-right: 5px solid #000000;*/
+    /*border-left: 5px solid #000000;*/
+    /*border-top-width: 5px;*/
+    border-top-style: dashed;
+    /*border-top-style: dotted;*/
+    /*border-top-style: solid;*/
+    border-top-color: red;
+    background-color:  #43d2b0;
+    box-sizing: border-box;
+}
+.position {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: chocolate;
+    margin: 40px auto;
+    /*border-radius: 50%;*/
+}
+
+.position .child {
+    width: 150px;
+    height: 150px;
+}
+.position .child.green {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: green;
+    z-index: 1;
+}
+.position .child.blue {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    background-color: blue;
+}
+.position .child.purple {
+    background-color: purple;
+}
+
+.children {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(100,200,55,.7);
+}
