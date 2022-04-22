@@ -1,4 +1,4 @@
-//Lesson2 DZ
+//Lesson2 DZ5_Shakeev_Erbol_12-01
 function project () {
     const btn = document.getElementById('btn')
     btn.addEventListener('click', function (){
