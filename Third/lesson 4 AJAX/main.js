@@ -17,14 +17,11 @@ function setUserInfo (){
             username: username.value,
             email: email.value
         }
-
-
         xhr.open('POST', url)
         xhr.responseType = 'json'
         xhr.onload = function (){
             console.log(xhr.response)
         }
-
         xhr.setRequestHeader('Content-type','application/json')
         xhr.send(JSON.stringify(data))
     }
@@ -42,12 +39,8 @@ btn.addEventListener('click',setUserInfo)
 
 
 // const xhr =  new XMLHttpRequest()
-//
-// xhr.open('GET',url);
-//
+// xhr.open('GET',url)
 // xhr.responseType = 'json';
-//
-//
 // xhr.onerror = function (){
 //     console.log(xhr.status)
 // }
