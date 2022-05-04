@@ -10,7 +10,6 @@
 // console.log(result)
 
 
-
 //2 способ
 
 // const regexTwo = new RegExp('шаблон','gi')
