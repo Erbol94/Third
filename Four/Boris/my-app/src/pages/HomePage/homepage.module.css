@@ -1,0 +1,33 @@
+.container {
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #282c34;
+}
+.container_inner {
+    flex: 0 1 580px;
+    text-align: center;
+    color: #ffffff;
+}
+.container_inner_text {
+    font-family: Times New Roman sans-serif;
+    text-transform: uppercase;
+}
+.btn_home {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 6px;
+    background: rgba(28,28,28,0);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Times New Roman sans-serif;
+    color: #ffffff;
+}
+.btn_home:hover {
+    background: darkgray;
+}
+.btn_home:active {
+    color: black;
+}

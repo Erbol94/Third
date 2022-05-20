@@ -1,0 +1,41 @@
+.blog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0, 0, .5);
+    display: flex;
+    justify-content: center;
+}
+.blog-body {
+    padding: 2rem;
+    width: 500px;
+    border-radius: 5px;
+    background: #ffffff;
+    height: 100%;
+}
+.btn {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    background: rgba(28,28,28, 0);
+    transition: 0.3s;
+}
+.btn:hover {
+    background: black;
+    color: white;
+}
+.btn_inner {
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    background: rgba(28,28,28, 0);
+    transition: 0.3s;
+}
+.btn_inner:hover {
+    background: black;
+    color: white;
+}

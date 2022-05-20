@@ -1,0 +1,14 @@
+.main_page {
+    display: flex;
+    justify-content: center;
+}
+.main_page h2 {
+    text-transform: uppercase;
+}
+.btn {
+    padding: 10px 20px;
+    background: #282c34;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 20px;
+}
