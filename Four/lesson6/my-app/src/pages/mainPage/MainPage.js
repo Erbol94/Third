@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import Users from "../../components/users/Users";
 const URL = 'https://jsonplaceholder.typicode.com/users';
 
